@@ -12,8 +12,7 @@ public class RandomStringChooser
   public String getNext() {
     if(inter.size() > 0){
       return inter.remove((int)(Math.random()*inter.size()));
-    } else {
+    }
       return "NONE";
-}
 }
 }
