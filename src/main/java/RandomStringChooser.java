@@ -15,3 +15,4 @@ public class RandomStringChooser
     } else {
       return "NONE";
 }
+  }
